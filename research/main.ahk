@@ -25,8 +25,8 @@ global EXCEL_COLUMN_STATE := "E"
 global EXCEL_COLUMN_ASSOCIATE := "F"
 
 ;search site URLs
-global URL_PEOPLE_FINDERS := "http://peoplefinders.com"
-global URL_PEOPLE_FINDERS_ADDRESS := "http://www.peoplefinders.com/address-search/"
+global URL_PEOPLE_FINDERS := "http://www.peoplefinders.com"
+global URL_PEOPLE_FINDERS_ADDRESS := "http://www.peoplefinders.com/property-records"
 global URL_SWITCHBOARD_REVERSE_PHONE_LOOKUP := "http://www.switchboard.com/phone/"
 global URL_SWITCHBOARD_FIND_PEOPLE := "http://www.switchboard.com/name/"
 global URL_SWITCHBOARD_REVERSE_ADDRESS := "http://www.switchboard.com/reverse_address"
@@ -84,7 +84,7 @@ global ID_INPUT_PHONE_NUMBER := "full_phone"
 
 !5::switchboardFindAPerson()			; #5
 
-!6::whitepagesFindAPerson()			; #6 
+!6::whitepagesFindAPerson()			; #6
 
 !7::whitepagesReverseAddress()			; #7
 
