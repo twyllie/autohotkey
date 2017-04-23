@@ -49,14 +49,6 @@ global ID_BUTTON_SIGN_IN := "ctl00_MasterContentPlaceHolder_LoginButton"
 ; www.peoplefinders.com People Search
 global ID_LINK_PEOPLE_SEARCH_PAGE := "ctl00_navPeopleLink"
 
-global PF_OLD_INPUT_FIRST_NAME := "ctl00_ctl00_MasterContentPlaceHolder_SearchCriteriaContentPlaceHolder_ctl00_FirstNameTextBox"
-global PF_OLD_INPUT_LAST_NAME := "ctl00_ctl00_MasterContentPlaceHolder_SearchCriteriaContentPlaceHolder_ctl00_LastNameTextBox"
-global PF_OLD_INPUT_CITY := "ctl00_ctl00_MasterContentPlaceHolder_SearchCriteriaContentPlaceHolder_ctl00_CityTextBox"
-global PF_OLD_INPUT_STATE := "ctl00_ctl00_MasterContentPlaceHolder_SearchCriteriaContentPlaceHolder_ctl00_StateDropDownList"
-global PF_OLD_BUTTON_PEOPLE_SEARCH := "ctl00_ctl00_MasterContentPlaceHolder_SearchCriteriaContentPlaceHolder_ctl00_SearchButton"
-global PF_OLD_INPUT_MI := "ctl00_ctl00_MasterContentPlaceHolder_SearchPreviewContentPlaceHolder_ctl00_MiddleNameTextBox"
-global PF_OLD_BUTTON_UPDATE_SEARCH := "ctl00_ctl00_MasterContentPlaceHolder_SearchPreviewContentPlaceHolder_ctl00_SearchButton"
-
 global PF_NEW_INPUT_FIRST_NAME := "fn"
 global PF_NEW_INPUT_MIDDLE_INITIAL := "mn"
 global PF_NEW_INPUT_LAST_NAME := "ln"

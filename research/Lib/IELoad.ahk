@@ -10,6 +10,6 @@ IELoad(Pwb)	;You need to send the IE handle to the function unless you define it
 	Until (!Pwb.busy)
 	Loop	;optional check to wait for the page to completely load
 		Sleep,100
-	Until (Pwb.Document.Readystate = "Complete")
+	Until (!Pwb.busy)
 	Return True
 }
