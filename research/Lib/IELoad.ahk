@@ -2,14 +2,14 @@ IELoad(Pwb)	;You need to send the IE handle to the function unless you define it
 {
 	If !Pwb	;If Pwb is not a valid pointer then quit
 		Return False
-	Loop	;Otherwise sleep for .1 seconds untill the page starts loading
-		Sleep,100
+	Loop	;Otherwise sleep for .25 seconds untill the page starts loading
+		Sleep,250
 	Until (Pwb.busy)
 	Loop	;Once it starts loading wait until completes
-		Sleep,100
+		Sleep,250
 	Until (!Pwb.busy)
 	Loop	;optional check to wait for the page to completely load
-		Sleep,100
+		Sleep,1000
 	Until (!Pwb.busy)
 	Return True
 }

@@ -47,7 +47,8 @@ peopleFindersNameSearch() {
 		peopleFinders.document.getElementById(PF_NEW_INPUT_LAST_NAME).value := nameArray["lastName"]
 		peopleFinders.document.getElementById(PF_NEW_INPUT_CITY).value := cityValue
 		peopleFinders.document.getElementById(PF_NEW_INPUT_STATE).value := stateValue
-		peopleFinders.document.querySelectorAll("form[action='/peoplesearch/searchresults']").getElementsByTagName("BUTTON")[0].Click()
+		peopleFinders.document.querySelectorAll("button.btn.btn-lg-default-orange.btn-search")[0].Click()
+
 	}
 	Return
 }
